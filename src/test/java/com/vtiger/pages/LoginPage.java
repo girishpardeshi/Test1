@@ -39,6 +39,8 @@ public class LoginPage {
 	
 	public void ValidLogin(String useriddata, String pwddata)
 	{
+		
+		System.out.println("Girish");
 		genericmethods.entervalue(driver, username, useriddata, logger);
 		//username.sendKeys(userid);
 		genericmethods.entervalue(driver, userpwd, pwddata, logger);
