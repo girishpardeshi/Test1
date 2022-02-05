@@ -38,6 +38,8 @@ public class BaseTest {
 	@BeforeSuite
 	public void Launchapp() throws Exception
 	{
+		
+		System.out.println("Girish");
 		Readproperties();
 		data=readExcelData();
 		creatreport();
